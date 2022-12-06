@@ -1,0 +1,74 @@
+@import 'src/common/styles/extends';
+
+.main {
+  height: 1158px;
+
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    .about_container {
+      display: grid;
+      grid-template-rows: repeat(auto-fill, minmax(1fr, 2fr));
+      gap:74px;
+      justify-content: center;
+      width: 1170px;
+      margin-top: 125px;
+
+      h1, h3, p {
+        margin: 0;
+      }
+
+      h1 {
+        @extend %font-title-h1-about;
+      }
+
+      h3 {
+        @extend %font-title-h3-about;
+      }
+
+      p {
+        @extend %font-main-content;
+      }
+
+
+      .title {
+
+      }
+
+      .content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+
+        article p {
+          padding-top: 32px;
+        }
+      }
+
+      .pictures {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) 2fr;
+        gap: 30px;
+        align-self: end;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  footer {
+    @extend %font-footer-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 243px;
+
+    .footer_container {
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      width: 1170px;
+    }
+  }
+}

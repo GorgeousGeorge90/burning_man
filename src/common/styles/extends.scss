@@ -1,0 +1,80 @@
+@import 'default_values';
+@import 'mixins';
+
+// header styles
+
+%font-base{
+  font-family:$title;
+  color:$primary;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+%font-nav-h {
+  @extend %font-base;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+%font-btn-h {
+  @extend %font-base;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+}
+
+%font-title-h3-h {
+  @extend %font-base;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0.1em;
+}
+
+%font-title-h1-h {
+  @extend %font-base;
+  font-size: 100px;
+  line-height: 151px;
+}
+
+//about and footer styles
+
+%font-title-h1-about {
+  @extend %font-base;
+  color:$secondary;
+  font-size: 50px;
+  line-height: 75px;
+}
+
+%font-title-h3-about {
+  @extend %font-base;
+  color:$secondary;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+%font-content {
+  font-family:$content;
+  color:$secondary;
+  font-style: normal;
+  font-weight: 400;
+}
+
+%font-main-content {
+  @extend %font-content;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+}
+
+%font-footer-content {
+  @extend %font-content;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+
+
+
+
+

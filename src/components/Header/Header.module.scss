@@ -1,0 +1,73 @@
+@import 'src/common/styles/extends';
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  background: url('../../assets/img/header-bg.svg');
+
+  .container {
+    display:grid;
+    grid-template-rows: repeat(3, 1fr);
+    width: 1170px;
+    height: 786px;
+
+    nav {
+      align-self: start;
+      display: flex;
+      align-items: center;
+
+      ul {
+        list-style: none;
+        display: flex;
+
+        li {
+          padding-left: 40px;
+
+          a {
+            @extend %font-nav-h;
+            text-decoration: none;
+
+          }
+        }
+      }
+
+      .contact {
+        @extend %font-btn-h;
+        flex-grow: 1;
+
+        p {
+          float: right;
+        }
+      }
+    }
+
+    .title {
+      height: 256px;
+
+      h1 {
+        @extend %font-title-h1-h;
+      }
+
+      h3 {
+        @extend %font-title-h3-h;
+      }
+
+      h1, h3, p {
+        margin: 0;
+      }
+
+
+      .btn {
+        button {
+          @extend %font-btn-h;
+          width: 238px;
+          height: 57px;
+          border: 1px solid $primary;
+          background: none;
+        }
+      }
+    }
+  }
+}
