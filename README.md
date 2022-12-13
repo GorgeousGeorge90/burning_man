@@ -8,7 +8,7 @@
 
 ### Description:
 
-Simple static website!
+Simple static website in one desktop resolution!
 
 ### Tech Stack
 

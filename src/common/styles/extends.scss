@@ -1,5 +1,4 @@
 @import 'default_values';
-@import 'mixins';
 
 // header styles
 
@@ -11,11 +10,25 @@
   text-transform: uppercase;
 }
 
-%font-nav-h {
+
+// a styles
+
+// normal
+
+%font-a-h {
   @extend %font-base;
   font-size: 14px;
   line-height: 21px;
 }
+
+// xl
+
+%font-a-h-xl {
+  @extend %font-base;
+  font-size: 18px;
+  line-height: 25px;
+}
+
 
 %font-btn-h {
   @extend %font-base;
@@ -71,6 +84,14 @@
   @extend %font-content;
   font-size: 15px;
   line-height: 20px;
+}
+
+// flex
+
+%flex-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 

@@ -4,9 +4,7 @@
   height: 1158px;
 
   .about {
-    display: flex;
-    justify-content: center;
-    align-items: start;
+    @extend %flex-type;
 
     .about_container {
       display: grid;
@@ -32,11 +30,6 @@
         @extend %font-main-content;
       }
 
-
-      .title {
-
-      }
-
       .content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -59,9 +52,7 @@
 
   footer {
     @extend %font-footer-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-type;
     height: 243px;
 
     .footer_container {

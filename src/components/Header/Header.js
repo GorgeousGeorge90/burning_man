@@ -1,5 +1,4 @@
 import styles from './Header.module.scss';
-import {NavLink} from 'react-router-dom';
 import logo from './../../assets/img/logo.svg';
 
 const Header = ()=> {
@@ -10,10 +9,10 @@ const Header = ()=> {
                         <img src={logo} alt='pic'/>
                     </div>
                     <ul>
-                        <li><NavLink to={'/'}>Home</NavLink></li>
-                        <li><NavLink to={'/'}>About</NavLink></li>
-                        <li><NavLink to={'/'}>Tickets</NavLink></li>
-                        <li><NavLink to={'/'}>Contacts</NavLink></li>
+                        <li><a href={'/'}>Home</a></li>
+                        <li><a href={'/'}>About</a></li>
+                        <li><a href={'/'}>Tickets</a></li>
+                        <li><a href={'/'}>Contacts</a></li>
                     </ul>
                     <div className={styles.contact}>
                         <p>+1 893 839-23-64</p>
