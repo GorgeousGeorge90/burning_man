@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/burning_man/static/css/main.e1bc4903.css",
+    "main.js": "/burning_man/static/js/main.8c8c8a1c.js",
+    "static/js/787.64fb2967.chunk.js": "/burning_man/static/js/787.64fb2967.chunk.js",
+    "static/media/img3.png": "/burning_man/static/media/img3.5e9f14fddd44929665b2.png",
+    "static/media/header-bg.svg": "/burning_man/static/media/header-bg.f9848a626e64dfbbab8b.svg",
+    "static/media/img1.png": "/burning_man/static/media/img1.1adc6f694a585c8d15ef.png",
+    "static/media/img2.png": "/burning_man/static/media/img2.73fe100bec9dd3cc8e3f.png",
+    "static/media/logo.svg": "/burning_man/static/media/logo.df02023384832e35b2cc1265815af479.svg",
+    "index.html": "/burning_man/index.html",
+    "main.e1bc4903.css.map": "/burning_man/static/css/main.e1bc4903.css.map",
+    "main.8c8c8a1c.js.map": "/burning_man/static/js/main.8c8c8a1c.js.map",
+    "787.64fb2967.chunk.js.map": "/burning_man/static/js/787.64fb2967.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1bc4903.css",
+    "static/js/main.8c8c8a1c.js"
+  ]
+}
